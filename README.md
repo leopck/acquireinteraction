@@ -23,3 +23,9 @@ It's a store where people can get features that you desire e.g. Chromecast
 2. trigger
 3. event
 4. certain service polling 
+
+Feature Roadmap
+First milestone, expose service from device
+Second milestone, able to view available services from device
+3rd, acquire service from device
+Third milestone, acquired service able to view

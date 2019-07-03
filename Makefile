@@ -1,16 +1,17 @@
 all:
-	cd /home/leock/vigil/acquireinteraction
+	cd /home/phoongst/vigil/acquireinteraction
 	echo "Starting Acquire Me2!"
-	python /home/leock/vigil/acquireinteraction/main.py
+	python /home/phoongst/vigil/acquireinteraction/main.py
+	make git
 
 
 git:
-	cd /home/leock/vigil/acquireinteraction
-	git add main.py
+	cd /home/phoongst/vigil/acquireinteraction
+	git add .
 	git commit -m "Implementing basic functionality" -s
 
 git-rebase:
-	cd /home/leock/vigil/acquireinteraction
+	cd /home/phoongst/vigil/acquireinteraction
 	git reset --soft HEAD~`git rebase --autosquash | wc -l`
 	STORE1=`git diff | grep + | grep \# | cut -d# -f2`
 	if [ -z "$(STORE1)" ]; then

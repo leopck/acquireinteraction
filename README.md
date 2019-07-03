@@ -25,7 +25,7 @@ It's a store where people can get features that you desire e.g. Chromecast
 4. certain service polling 
 
 Feature Roadmap
-First milestone, expose service from device
-Second milestone, able to view available services from device
-3rd, acquire service from device
-Third milestone, acquired service able to view
+1. expose service from device
+2. able to view available services from device
+3. acquire service from device
+4. acquired service able to view
